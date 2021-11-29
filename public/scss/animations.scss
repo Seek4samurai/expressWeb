@@ -1,3 +1,4 @@
+@import "./variables";
 // Black Hole animation finally boy @_@
 .outer-circle {
     position: relative;
@@ -64,5 +65,113 @@
 }
 
 .animate-flicker {
-    -webkit-animation: flickerAnimation 1.4s infinite;
+    animation: flickerAnimation 1.4s infinite;
+}
+
+// ------------------------------------------------------------------------------------------
+.container {
+    left: 50%;
+    margin: auto -50px;
+    position: absolute;
+    top: 50%;
+}
+.swing div {
+    border-radius: 50%;
+    float: left;
+    height: 2rem;
+    width: 2rem;
+}
+.swing div:nth-of-type(1) {
+    background: #ff0055;
+}
+.swing div:nth-of-type(2) {
+    background: #ff00e0;
+}
+.swing div:nth-of-type(3) {
+    background: #ff00e0;
+}
+.swing div:nth-of-type(4) {
+    background: #ff00e0;
+}
+.swing div:nth-of-type(5) {
+    background: #ff00e0;
+}
+.swing div:nth-of-type(6) {
+    background: #ff00e0;
+}
+.swing div:nth-of-type(7) {
+    background: #ff00e0;
+}
+.shadow {
+    clear: left;
+    padding-top: 1.5em;
+    div {
+        filter: blur(1px);
+        float: left;
+        width: 2rem;
+        height: 1rem;
+        border-radius: 50%;
+        background: #424242;
+    }
+    .shadow-l {
+        background: #636363;
+    }
+    .shadow-r {
+        background: #636363;
+    }
+}
+
+@keyframes ball-l {
+    0%,
+    50% {
+        transform: rotate(0) translateX(0);
+    }
+    100% {
+        transform: rotate(50deg) translateX(-2.5em);
+    }
+}
+@keyframes ball-r {
+    0% {
+        transform: rotate(-50deg) translateX(2.5em);
+    }
+    50%,
+    100% {
+        transform: rotate(0) translateX(0);
+    }
+}
+@keyframes shadow-l-n {
+    0%,
+    50% {
+        opacity: 0.5;
+
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0.125;
+        transform: translateX(-1.75em);
+    }
+}
+@keyframes shadow-r-n {
+    0% {
+        opacity: 0.125;
+        transform: translateX(1.75em);
+    }
+    50%,
+    100% {
+        opacity: 0.5;
+
+        transform: translateX(0);
+    }
+}
+.swing-l {
+    animation: ball-l 0.425s ease-in-out infinite alternate;
+}
+.swing-r {
+    animation: ball-r 0.425s ease-in-out infinite alternate;
+}
+.shadow-l {
+    animation: shadow-l-n 0.425s ease-in-out infinite alternate;
+}
+.shadow-r {
+    animation: shadow-r-n 0.425s ease-in-out infinite alternate;
 }
