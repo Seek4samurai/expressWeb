@@ -93,4 +93,11 @@ footer {
     border-top: 3px solid $primary-color;
     box-shadow: rgba(223, 0, 80, 0.4) -0px -5px, rgba(223, 0, 80, 0.3) -0px -10px, rgba(223, 0, 80, 0.2) -0px -15px,
         rgba(223, 0, 80, 0.1) -0px -20px, rgba(223, 0, 80, 0.05) -0px -25px;
+    .gourav:hover {
+        background-color: $primary-color;
+        cursor: pointer;
+    }
+    .samurai:hover {
+        @extend .gourav:hover;
+    }
 }

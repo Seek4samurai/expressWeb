@@ -82,29 +82,29 @@
     width: 2rem;
 }
 .swing div:nth-of-type(1) {
-    background: #ff0055;
+    background: $primary-color;
 }
 .swing div:nth-of-type(2) {
-    background: #ff00e0;
+    background: $secondary-color;
 }
 .swing div:nth-of-type(3) {
-    background: #ff00e0;
+    background: $secondary-color;
 }
 .swing div:nth-of-type(4) {
-    background: #ff00e0;
+    background: $secondary-color;
 }
 .swing div:nth-of-type(5) {
-    background: #ff00e0;
+    background: $secondary-color;
 }
 .swing div:nth-of-type(6) {
-    background: #ff00e0;
+    background: $secondary-color;
 }
 .swing div:nth-of-type(7) {
-    background: #ff00e0;
+    background: $primary-color;
 }
+
 .shadow {
     clear: left;
-    padding-top: 1.5em;
     div {
         filter: blur(1px);
         float: left;
@@ -127,12 +127,12 @@
         transform: rotate(0) translateX(0);
     }
     100% {
-        transform: rotate(50deg) translateX(-2.5em);
+        transform: rotate(50deg) translateX(-2.5rem);
     }
 }
 @keyframes ball-r {
     0% {
-        transform: rotate(-50deg) translateX(2.5em);
+        transform: rotate(-50deg) translateX(2.5rem);
     }
     50%,
     100% {

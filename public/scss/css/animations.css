@@ -115,36 +115,35 @@
 }
 
 .swing div:nth-of-type(1) {
-  background: #ff0055;
+  background: #df0050;
 }
 
 .swing div:nth-of-type(2) {
-  background: #ff00e0;
+  background: #8400ff;
 }
 
 .swing div:nth-of-type(3) {
-  background: #ff00e0;
+  background: #8400ff;
 }
 
 .swing div:nth-of-type(4) {
-  background: #ff00e0;
+  background: #8400ff;
 }
 
 .swing div:nth-of-type(5) {
-  background: #ff00e0;
+  background: #8400ff;
 }
 
 .swing div:nth-of-type(6) {
-  background: #ff00e0;
+  background: #8400ff;
 }
 
 .swing div:nth-of-type(7) {
-  background: #ff00e0;
+  background: #df0050;
 }
 
 .shadow {
   clear: left;
-  padding-top: 1.5em;
 }
 
 .shadow div {
@@ -172,8 +171,8 @@
             transform: rotate(0) translateX(0);
   }
   100% {
-    -webkit-transform: rotate(50deg) translateX(-2.5em);
-            transform: rotate(50deg) translateX(-2.5em);
+    -webkit-transform: rotate(50deg) translateX(-2.5rem);
+            transform: rotate(50deg) translateX(-2.5rem);
   }
 }
 
@@ -184,15 +183,15 @@
             transform: rotate(0) translateX(0);
   }
   100% {
-    -webkit-transform: rotate(50deg) translateX(-2.5em);
-            transform: rotate(50deg) translateX(-2.5em);
+    -webkit-transform: rotate(50deg) translateX(-2.5rem);
+            transform: rotate(50deg) translateX(-2.5rem);
   }
 }
 
 @-webkit-keyframes ball-r {
   0% {
-    -webkit-transform: rotate(-50deg) translateX(2.5em);
-            transform: rotate(-50deg) translateX(2.5em);
+    -webkit-transform: rotate(-50deg) translateX(2.5rem);
+            transform: rotate(-50deg) translateX(2.5rem);
   }
   50%,
   100% {
@@ -203,8 +202,8 @@
 
 @keyframes ball-r {
   0% {
-    -webkit-transform: rotate(-50deg) translateX(2.5em);
-            transform: rotate(-50deg) translateX(2.5em);
+    -webkit-transform: rotate(-50deg) translateX(2.5rem);
+            transform: rotate(-50deg) translateX(2.5rem);
   }
   50%,
   100% {
