@@ -1,9 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 * {
   padding: 0;
   margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-h1 {
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #1b1b1b;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body h1 {
   color: #525252;
+}
+
+.main_menu {
+  background-color: #1b1b1b;
+}
+
+.navbar {
+  padding: 2rem 3rem;
+  border-radius: 0px 0px 30px 30px;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.navbar a {
+  font-size: 1.4rem;
+}
+
+.navbar li {
+  margin-left: 2rem;
+}
+
+.landing-page-content {
+  height: 80vh;
+}
+
+.main_header_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  color: #eee;
+}
+
+.main_header_left .im {
+  font-size: 1.6rem;
+}
+
+.main_header_left h1 {
+  font-size: 7rem;
+}
+
+.main_header_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-text {
+  white-space: pre-wrap !important;
+}
+
+footer {
+  width: 100%;
+  color: #eee;
+  background-color: #1b1b1b;
+  line-height: 5rem;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: auto;
+  border-top: 3px solid #df0050;
 }
 /*# sourceMappingURL=style.css.map */

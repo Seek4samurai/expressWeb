@@ -16,7 +16,7 @@ app.get("/about", (req, res) => {
     res.send("About page");
 });
 
-app.get("/porjects", (req, res) => {
+app.get("/projects", (req, res) => {
     res.send("Projects");
 });
 
