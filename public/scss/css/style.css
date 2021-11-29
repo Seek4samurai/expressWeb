@@ -27,15 +27,20 @@ body h1 {
   color: #525252;
 }
 
+body .landing-page-content {
+  height: 80vh;
+}
+
 .main_menu {
   background-color: #1b1b1b;
 }
 
 .navbar {
-  padding: 2rem 3rem;
+  padding: 1.5rem 3rem;
   border-radius: 0px 0px 30px 30px;
+  border-color: #df0050;
   border-style: solid;
-  border-width: 3px;
+  border-width: 0 0 3px 0;
 }
 
 .navbar a {
@@ -46,8 +51,8 @@ body h1 {
   margin-left: 2rem;
 }
 
-.landing-page-content {
-  height: 80vh;
+.navbar li:hover {
+  background-color: #df0050;
 }
 
 .main_header_left {
@@ -67,7 +72,7 @@ body h1 {
   color: #eee;
 }
 
-.main_header_left .im {
+.main_header_left .sub-head-content {
   font-size: 1.6rem;
 }
 
@@ -91,8 +96,12 @@ body h1 {
           align-items: center;
 }
 
+.main_header_right .carousel .carousel-inner {
+  border-radius: 40px;
+}
+
 .header-text {
-  white-space: pre-wrap !important;
+  white-space: normal !important;
 }
 
 footer {
@@ -104,5 +113,7 @@ footer {
   text-align: center;
   margin-top: auto;
   border-top: 3px solid #df0050;
+  -webkit-box-shadow: rgba(223, 0, 80, 0.4) 0px -5px, rgba(223, 0, 80, 0.3) 0px -10px, rgba(223, 0, 80, 0.2) 0px -15px, rgba(223, 0, 80, 0.1) 0px -20px, rgba(223, 0, 80, 0.05) 0px -25px;
+          box-shadow: rgba(223, 0, 80, 0.4) 0px -5px, rgba(223, 0, 80, 0.3) 0px -10px, rgba(223, 0, 80, 0.2) 0px -15px, rgba(223, 0, 80, 0.1) 0px -20px, rgba(223, 0, 80, 0.05) 0px -25px;
 }
 /*# sourceMappingURL=style.css.map */

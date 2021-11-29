@@ -20,6 +20,9 @@ body {
     h1 {
         color: $primary-text-color;
     }
+    .landing-page-content {
+        height: 80vh;
+    }
 }
 
 .main_menu {
@@ -27,20 +30,20 @@ body {
 }
 
 .navbar {
-    padding: 2rem 3rem;
+    padding: 1.5rem 3rem;
     border-radius: 0px 0px 30px 30px;
+    border-color: $primary-color;
     border-style: solid;
-    border-width: 3px;
+    border-width: 0 0 3px 0;
     a {
         font-size: 1.4rem;
     }
     li {
         margin-left: 2rem;
     }
-}
-
-.landing-page-content {
-    height: 80vh;
+    li:hover {
+        background-color: $primary-color;
+    }
 }
 
 .main_header_left {
@@ -49,7 +52,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     color: #eee;
-    .im {
+    .sub-head-content {
         // padding-top: 5rem;
         // padding-left: 10rem;
         font-size: 1.6rem;
@@ -65,11 +68,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    .carousel {
+        .carousel-inner {
+            border-radius: 40px;
+        }
+    }
 }
 
 // for heading on top to make it responsive and to overlap the bootstrap white-space : no wrap property
 .header-text {
-    white-space: pre-wrap !important;
+    white-space: normal !important;
 }
 
 // Footer
@@ -83,4 +91,6 @@ footer {
     text-align: center;
     margin-top: auto;
     border-top: 3px solid $primary-color;
+    box-shadow: rgba(223, 0, 80, 0.4) -0px -5px, rgba(223, 0, 80, 0.3) -0px -10px, rgba(223, 0, 80, 0.2) -0px -15px,
+        rgba(223, 0, 80, 0.1) -0px -20px, rgba(223, 0, 80, 0.05) -0px -25px;
 }
