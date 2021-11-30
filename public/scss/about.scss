@@ -19,11 +19,11 @@
     color: #eee;
     cursor: pointer;
   }
-  a {
+  .aclass {
     color: $primary-color;
     text-decoration: none;
   }
-  a:hover {
+  .aclass:hover {
     background-color: $primary-color;
     color: #eee;
     cursor: pointer;

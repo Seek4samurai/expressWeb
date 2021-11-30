@@ -24,12 +24,12 @@
   cursor: pointer;
 }
 
-.text-container a {
+.text-container .aclass {
   color: #df0050;
   text-decoration: none;
 }
 
-.text-container a:hover {
+.text-container .aclass:hover {
   background-color: #df0050;
   color: #eee;
   cursor: pointer;
