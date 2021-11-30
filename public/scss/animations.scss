@@ -68,7 +68,7 @@
     animation: flickerAnimation 1.4s infinite;
 }
 
-// ------------------------------------------------------------------------------------------
+// Ball pendulum animation did worked after an hour--------------
 .container {
     left: 50%;
     margin: auto -50px;
@@ -174,4 +174,20 @@
 }
 .shadow-r {
     animation: shadow-r-n 0.425s ease-in-out infinite alternate;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        max-width: 200px;
+    }
+    .main_header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
 }

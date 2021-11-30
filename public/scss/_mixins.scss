@@ -1,0 +1,27 @@
+@mixin footer-display {
+    box-shadow: rgba(223, 0, 80, 0.4) -0px -5px, rgba(223, 0, 80, 0.3) -0px -10px, rgba(223, 0, 80, 0.2) -0px -15px,
+        rgba(223, 0, 80, 0.1) -0px -20px, rgba(223, 0, 80, 0.05) -0px -25px;
+}
+
+@mixin red-borders {
+    border-style: solid;
+    border-radius: 30px 30px 30px 30px;
+    border-color: rgb(223, 0, 80);
+    border-width: 8px 8px 8px 8px;
+}
+
+@mixin red-semi-borders {
+    border-style: solid;
+    border-radius: 0px 0px 30px 30px;
+    border-color: $primary-color;
+    border-width: 0px 0px 3px 0px;
+}
+
+// not used till now
+@mixin dank-borders {
+    padding: 1rem;
+    color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, rgb(223, 0, 80), rgba(0, 0, 0, 0)) 1 100%;
+}

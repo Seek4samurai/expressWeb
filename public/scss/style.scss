@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 @import "./variables";
+@import "./mixins";
 
 * {
     padding: 0;
@@ -50,7 +51,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     color: #eee;
     .sub-head-content {
         // padding-top: 5rem;
@@ -91,8 +92,7 @@ footer {
     text-align: center;
     margin-top: auto;
     border-top: 3px solid $primary-color;
-    box-shadow: rgba(223, 0, 80, 0.4) -0px -5px, rgba(223, 0, 80, 0.3) -0px -10px, rgba(223, 0, 80, 0.2) -0px -15px,
-        rgba(223, 0, 80, 0.1) -0px -20px, rgba(223, 0, 80, 0.05) -0px -25px;
+    @include footer-display;
     .gourav:hover {
         background-color: $primary-color;
         cursor: pointer;
