@@ -168,3 +168,19 @@ p2 {
     left: 0%;
   }
 }
+
+@media screen and (max-width: 1440px) {
+  body {
+    .landing-page-content {
+      height: 50vh;
+    }
+  }
+}
+
+@media screen and (max-width: 996px) {
+  body {
+    .landing-page-content {
+      height: 30vh;
+    }
+  }
+}

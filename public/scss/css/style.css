@@ -121,16 +121,4 @@ footer .gourav:hover, footer .samurai:hover {
   background-color: #df0050;
   cursor: pointer;
 }
-
-@media screen and (max-width: 1440px) {
-  body .landing-page-content {
-    height: 50vh;
-  }
-}
-
-@media screen and (max-width: 996px) {
-  body .landing-page-content {
-    height: 30vh;
-  }
-}
 /*# sourceMappingURL=style.css.map */
