@@ -179,6 +179,7 @@ p2 {
     left: 0%;
   }
 }
+<<<<<<< HEAD
 
 .landing-page-content {
   display: -webkit-box;
@@ -210,4 +211,6 @@ p2 {
     height: 30vh;
   }
 }
+=======
+>>>>>>> parent of 4a8c254 (added even more media queries)
 /*# sourceMappingURL=about.css.map */
