@@ -5,6 +5,7 @@
 * {
   color: rgb(148, 148, 148);
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 .text-container {
@@ -12,7 +13,7 @@
   margin-bottom: 6rem;
   padding: 16px;
   .sub-heading-2 {
-    font-size: 3rem;
+    font-size: 3em;
   }
   .sub-heading-2:hover {
     background-color: $primary-color;
@@ -137,7 +138,6 @@ p2 {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
   .timeline::after {
     left: 31px;
   }
@@ -149,7 +149,7 @@ p2 {
     padding-right: 25px;
   }
 
-  /* Make sure that all arrows are pointing leftwards */
+  // /* Make sure that all arrows are pointing leftwards */
   .container::before {
     left: 60px;
     border: medium solid white;
@@ -169,18 +169,22 @@ p2 {
   }
 }
 
-@media screen and (max-width: 1440px) {
-  body {
-    .landing-page-content {
-      height: 50vh;
-    }
+.landing-page-content {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (min-width: 200px) {
+  .landing-page-content {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 40px 0;
   }
 }
 
-@media screen and (max-width: 996px) {
-  body {
-    .landing-page-content {
-      height: 30vh;
-    }
+@media screen and (max-width: 500px) {
+  .landing-page-content {
+    height: 30vh;
   }
 }

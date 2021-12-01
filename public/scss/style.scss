@@ -21,8 +21,11 @@ body {
     h1 {
         color: $primary-text-color;
     }
-    .landing-page-content {
-        height: 80vh;
+    // .landing-page-content {
+    //     height: 80vh;
+    // }
+    .container {
+        width: 100%;
     }
 }
 

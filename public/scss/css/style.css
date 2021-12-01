@@ -27,8 +27,8 @@ body h1 {
   color: #525252;
 }
 
-body .landing-page-content {
-  height: 80vh;
+body .container {
+  width: 100%;
 }
 
 .main_menu {
