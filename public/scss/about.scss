@@ -5,7 +5,6 @@
 * {
   color: rgb(148, 148, 148);
   box-sizing: border-box;
-  font-size: 62.5%;
 }
 
 .text-container {
@@ -13,7 +12,7 @@
   margin-bottom: 6rem;
   padding: 16px;
   .sub-heading-2 {
-    font-size: 3em;
+    font-size: 3rem;
   }
   .sub-heading-2:hover {
     background-color: $primary-color;
