@@ -13,6 +13,10 @@ html {
     font-size: 62.5%;
 }
 
+::-webkit-scrollbar {
+    width: 2px;
+}
+
 body {
     background-color: $back-color;
     height: 100vh;
@@ -69,11 +73,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    .carousel {
-        .carousel-inner {
-            border-radius: 40px;
-        }
-    }
 }
 
 // for heading on top to make it responsive and to overlap the bootstrap white-space : no wrap property

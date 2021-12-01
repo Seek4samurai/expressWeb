@@ -4,10 +4,14 @@
 <head>
     {{>headerlinks}}
     <link rel="stylesheet" href="./scss/css/about.css" />
+    <link rel="stylesheet" href="./scss/css/progress.css" />
     <title>Gourav Singh Rawat - About</title>
 </head>
 
 <body>
+    <div id="preogressbar"></div>
+    <div id="scrollPath"></div>
+    <div id="percent"></div>
     {{>navbar}}
     <!-- this is Main landing header boys -->
     <div class="container-fluid main_header">
@@ -62,6 +66,6 @@
     </div>
     <!-- BOI this is my footer -->
     {{>footer}}
+        <script src="./js/progressbar.js"></script>
 </body>
-
 </html>

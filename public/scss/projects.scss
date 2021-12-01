@@ -1,0 +1,51 @@
+@import "./variables";
+@import "./mixins";
+
+.all-projects {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 40px;
+    .project-card {
+        display: flex;
+        flex-direction: row-reverse;
+        align-content: center;
+        justify-content: center;
+        .text-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            p {
+                background-color: $primary-color;
+                font-size: 2rem;
+            }
+        }
+    }
+}
+.all-projects:nth-child(2) {
+    .project-card {
+        flex-direction: row;
+    }
+}
+.all-projects:nth-child(3) {
+    .project-card {
+        flex-direction: row-reverse;
+    }
+}
+.all-projects:nth-child(4) {
+    .project-card {
+        flex-direction: row;
+    }
+}
+.all-projects:nth-child(5) {
+    .project-card {
+        flex-direction: row-reverse;
+    }
+}
+.all-projects:nth-child(6) {
+    .project-card {
+        flex-direction: row;
+    }
+}

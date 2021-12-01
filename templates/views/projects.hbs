@@ -6,10 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {{>headerlinks}}
+    <link rel="stylesheet" href="./scss/css/projects.css" />
+    <link rel="stylesheet" href="./scss/css/projectCards.css" />
+    <link rel="stylesheet" href="./scss/css/progress.css" />
     <title>Gourav Singh Rawat - Projects</title>
 </head>
 
 <body>
+    <div id="preogressbar"></div>
+    <div id="scrollPath"></div>
+    <div id="percent"></div>
     {{>navbar}}
     <!-- this is Main landing header boys -->
     <div class="container-fluid main_header">
@@ -42,13 +48,49 @@
                         <!-- left side div -->
                         <h1>Projects</h1>
                     </div>
-                    <!-- right side div -->
+                </div>
+                <div class="all-projects">
+                    <div class="project-card">
+                        <div class="img-card"><img src="./images/Byfoodies.png" width="80%" alt=""></div>
+                        <div class="text-card"><p> Byfoodies - Deployed 👍</p></div>
+                    </div>
+                </div>
+                {{!--  --}}
+                <div class="all-projects">
+                    <div class="project-card">
+                        <div class="img-card"><img src="./images/Web-Games.png" width="80%" alt=""></div>
+                        <div class="text-card"><p> Web-Games - Deployed 👍</p></div>
+                    </div>
+                </div>
+                {{!--  --}}
+                <div class="all-projects">
+                    <div class="project-card">
+                        <div class="img-card"><img src="./images/NyanCat.png" width="80%" alt=""></div>
+                        <div class="text-card"><p> Nyan Cat - Deployed 👍</p></div>
+                    </div>
+                </div>
+                {{!--  --}}
+                <div class="all-projects">
+                    <div class="project-card">
+                        <div class="img-card"><img src="./images/Bubble.png" width="80%" alt=""></div>
+                        <div class="text-card"><p> Bubble Pop - Deployed 👍</p></div>
+                    </div>
+                </div>
+                {{!--  --}}
+                <div class="all-projects">
+                    <div class="project-card">
+                        <div class="img-card"><img src="./images/QuoteApp.png" width="80%" alt=""></div>
+                        <div class="text-card"><p> Quote App - Deployed 👍</p></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- BOI this is my footer -->
     {{>footer}}
+    <script src="./js/progressbar.js"></script>
 </body>
-
 </html>
+
+
+
