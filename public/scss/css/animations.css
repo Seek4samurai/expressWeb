@@ -303,6 +303,9 @@
     -ms-flex-line-pack: center;
         align-content: center;
     max-width: 200px;
+    left: 50%;
+    -webkit-transform: translateX(-15%);
+            transform: translateX(-15%);
   }
   .main_header {
     display: -webkit-box;

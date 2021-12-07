@@ -5,6 +5,12 @@
           box-sizing: border-box;
 }
 
+body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .text-container {
   border-style: solid;
   border-radius: 30px 30px 30px 30px;
@@ -179,6 +185,24 @@ p2 {
   /* Make all right containers behave like the left ones */
   .right {
     left: 0%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .landing-page-content {
+    max-height: 80vh;
+  }
+  .landing-page-content img {
+    max-height: 60vh;
+  }
+}
+
+@media screen and (max-width: 638px) {
+  .timeline {
+    margin-left: 0;
+  }
+  .content {
+    min-width: 120px;
   }
 }
 /*# sourceMappingURL=about.css.map */

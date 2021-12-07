@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+body {
+  align-items: center;
+}
+
 .text-container {
   @include red-borders;
   margin-bottom: 6rem;
@@ -166,5 +170,23 @@ p2 {
   /* Make all right containers behave like the left ones */
   .right {
     left: 0%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .landing-page-content {
+    max-height: 80vh;
+    img {
+      max-height: 60vh;
+    }
+  }
+}
+
+@media screen and (max-width: 638px) {
+  .timeline {
+    margin-left: 0;
+  }
+  .content {
+    min-width: 120px;
   }
 }
